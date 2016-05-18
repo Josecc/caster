@@ -1,0 +1,52 @@
+body {
+  padding: 15px;
+  width: 200px;
+  height: 60px;
+}
+
+section {
+  width: 100%;
+  height: calc(100% - 30px);
+  border-radius: 3px;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#castBtn, #castBtn:focus {
+  display: block;
+  outline: none;
+  font-family: sans-serif;
+  font-weight: lighter;
+  padding: 20px 80px;
+  background-color: #662D91;
+  color: #FFF;
+  border: none;
+  font-size: 18px;
+  border-radius: 3px;
+  margin-right: auto;
+  margin-left: auto;
+  transition: all .2s ease-in-out;
+}
+
+#castBtn:hover {
+  box-shadow: 0px 0px 5px 0px rgba(0,0,0,.8);
+}
+
+#castBtn:active {
+  box-shadow: inset 0px 0px 5px 1px rgba(0,0,0,.8);
+}
+
+#castBtn[disabled] {
+  background-color: rgba(102,45,145,.6);
+  border: none;
+}
+
+output {
+  display: inline-block;
+  padding-top: 25px;
+}
+
+.controls {
+  display: inline-block;
+  margin-top: 25px;
+}
