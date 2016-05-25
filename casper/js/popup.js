@@ -42,7 +42,7 @@ $(function() {
     });
   }
 
-  chrome.tabs.query({'active': true}, function(tabs) {
+  chrome.tabs.query({'active': true, 'currentWindow': true}, function(tabs) {
     var code = "document.getElementsByTagName('video')[0].src";
     chrome.tabs.executeScript(tabs[0].id, { code: code }, function (video) {
       if(video && video[0]){
