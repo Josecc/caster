@@ -1,7 +1,7 @@
 # caster
 A URL casting chrome extension for the Roku player. 
 
-I really just need a way to cast Pluralsight videos. I could not find one that worked well, then I came across "Roku URL Player and Remore", and its great but it needs the exact link for the video. 
+I really just need a way to cast Pluralsight videos. I could not find one that worked well, then I came across "Roku URL Player and Remote", and its great but it needs the exact link for the video. 
 
 I want to use the roku app to play vdeos (endpoint `/launch/63126?myurl=[encoded url]`) with this google extension and implement the following extra features:
  
